@@ -1,0 +1,74 @@
+body{
+    background-size:cover;
+    padding:20px;
+    font-family: sans-serif;
+    background-image:url("https://ueiglobaljalandharhome.files.wordpress.com/2019/06/personality-retail-e1521716129273.jpg")
+    }
+    
+.form{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    }
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+        }
+h1{
+          text-align:center;
+        }
+h1{
+        
+     font-size:20px
+    }
+.name{
+    margin-top:5px;
+    }
+.email{
+     margin-top:20px
+    }
+    
+.age{
+    margin-top:20px;
+    }
+    
+h1{
+    color:Pink;
+    font-size:35px;
+    }
+    
+.description{
+    color:Pink;
+    font-size:20px;
+    text-align:center;
+    }
+    
+.phone-no{
+    margin-top:20px;}
+      
+.permission{
+    margin-top:20px;
+    }
+p{
+    text-align:left;
+    margin-top:35px;
+    margin-bottom:5px;
+    }
+.three{
+    margin-bottom:10px;
+    text-align:left;
+      }
+h2{
+    margin-top:-19px;
+    text-align:center;}
+    
+.four{
+    margin-top:20px;
+    }
+.submit{
+    margin-top:20px;
+    }

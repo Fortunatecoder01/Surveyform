@@ -1,0 +1,172 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Survey</title>
+        <link rel = "stylesheet" href="survey-style.css">
+    </head>
+          <body>
+            <main>
+            <h1 id="title">Personality Survey Form</h1>
+            <p class="description" id="description">What type of Person are you? Fill the form and find out.</p>
+            <div class="form">
+              <h2>Information</h2>
+              <hr>
+              <form id="survey-form">
+                <div class="name">
+                <label id="name-label" for="name">Name
+                  <br>
+                </label>
+              <input id="name" type="text" size="50" placeholder="e.g: John" required>
+              </div>
+              <div class="email">
+                <label id="email-label" for="e-mail">Email
+                  <br>
+                </label>
+              <input id="email" type="email" size="50" placeholder="e.g: johndoe@gmail.com" required>
+              </div>
+              <div class="age">
+                <label id="number-label" for="age">Age
+                  <br>
+                  </label>
+                  <input id="number" type="number" min="13" max="99" name="age" placeholder="age">
+                  </div>
+                 <div class="phone-no">
+                    <label id="no">Phone-Number<br></label>
+                    <input id="number" type="text" size="50" placeholder="e.g: 000-000-0000">
+                </div>
+              <section class="form">
+                  <h2>Questions</h2>
+              <hr>
+              <div>
+              <p class="one">Do you get angry Easily?</p>
+              <label>
+                <input 
+                id="Yh" 
+                type="radio"
+                value="Yes"
+                name="yh-neh-maybe">yes</label>
+                <label>
+                <input 
+                id="neh" 
+                type="radio" 
+                value="neh"
+                name="yh-neh-maybe">no</label>
+                <label>
+                <input 
+                id="maybe" 
+                type="radio" 
+                value="maybe"
+                name="yh-neh-maybe">depends
+                </label>
+                <p>would you wait in a line for over 30minutes</p>
+                <label>
+                <input 
+                id="question" 
+                type="radio" 
+                value="Yes"
+                name="Yes-no">Yes</label>
+                  <label>
+                <input 
+                id="question" 
+                type="radio" 
+                value="no"
+                name="Yes-no">no</label>
+                <p>who knows you best</p>
+                <label>
+                <input 
+                id="question" 
+                type="radio" 
+                value="mother"
+                name="mother-father-friend">Mother</label>
+                <label>
+                <input 
+                id="question" 
+                type="radio" 
+                value="father"
+                name="mother-father-friend">father</label>
+                <label>
+                <input 
+                id="question" 
+                type="radio" 
+                value="friend"
+                name="mother-father-friend">Friend(best friend or any friend)</label>
+                <p>What was your initial reaction to a set back</p>
+                 <label>
+                <input 
+                id="question" 
+                type="radio" 
+                value="reaction"
+                name="reaction">Depression for weeks</label>
+                <label>
+                <input 
+                id="question" 
+                type="radio" 
+                value="reaction"
+                name="reaction">It is what it is</label>
+                <p>Where are you more energetic</p>
+                 <label>
+                <input 
+                id="question" 
+                type="radio" 
+                value="school"
+                name="School-Home">School</label>
+                <label>
+                <input 
+                id="question" 
+                type="radio" 
+                value="Home"
+                class="input-radio"
+                name="School-Home">Home</label>
+                <p>There's a party in your home and the kids decide to stay in your room (choose the most likely answer to you)</p>
+                <br>
+               <div class="party">
+                <label>
+                  <input
+                  id="party"
+                  type="checkbox"
+                  value="party">Send them out</label>
+                  </div>
+                 <br>
+                 <div>
+                  <label>
+                    <input id="independent" type="checkbox"
+                    value="independent">Stay With Them</label>
+                    </div>
+                    <br>
+                    <div>
+                    <label>
+                      <input
+                      id="gather reasons" type="checkbox"
+                      value="reasons">Let them stay hesistantgly</label>
+                      </div>
+                      <br>
+                      <div>
+                        <label>
+                          <input id="tell"  type="checkbox"
+                          value="tell">Let them stay but leave</label>
+                          </div>
+                          
+                          <br>
+                          <div>
+                            <label>
+                              <input id="lock" type="checkbox"
+                              value="lock">Lock your room door before the party starts</label>
+                            <br>
+                            <div class="four">
+                              <label for="results">Should we message you your results</label>
+                             <br>
+                              <select id="dropdown">
+                                <option value="Yes">yes</option>
+                                <option value="No">No</option>
+                              </div>
+                              </select>
+                              <br>
+                             <textarea name="messages" rows="5" cols="20">write any additional information</textarea>
+                              <div>
+                               <button id="submit" class="submit" type="submit">Submit</button>
+                               </div>
+            </form>
+            </div>
+            </main>
+          </body>
+      </html>
